@@ -1,0 +1,19 @@
+{
+  "name": "find-my-next-book",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:web": "npm run build --workspace @find-my-next-book/web",
+    "check": "npm run check --workspace @find-my-next-book/web",
+    "dev:web": "npm run dev --workspace @find-my-next-book/web",
+    "test:web": "npm run test --workspace @find-my-next-book/web"
+  },
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  }
+}
+
