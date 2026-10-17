@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bai-liu-puzzle-ensemble",
+    "request": "我喜欢《我在无限游戏里封神》，主要因为副本设计烧脑、主角聪明、群像写得好。想找类似的BL无限流，不希望感情线盖过剧情。",
+    "reference_title": "我在无限游戏里封神",
+    "positive_aspects": ["副本设计烧脑", "主角聪明", "群像"],
+    "hard_exclusions": ["感情线盖过剧情"],
+    "already_read": ["地球上线"],
+    "expected_ranking_signals": ["解谜", "智斗", "群像", "剧情主导"]
+  },
+  {
+    "id": "bai-liu-emotional-bond",
+    "request": "我喜欢《我在无限游戏里封神》里角色之间的羁绊和长线感情发展。想找BL无限流，感情线要重要，但不要主角团互相背叛。",
+    "reference_title": "我在无限游戏里封神",
+    "positive_aspects": ["角色羁绊", "长线感情发展", "主角团关系"],
+    "hard_exclusions": ["主角团互相背叛"],
+    "already_read": ["死亡万花筒"],
+    "expected_ranking_signals": ["感情线", "角色关系", "团队羁绊"]
+  }
+]
